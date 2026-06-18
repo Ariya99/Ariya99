@@ -64,7 +64,7 @@
 
 <div align="center">
 
-``text
+  ```text
       +--------------------+
       |   CI/CD Pipeline   |
       +---------+----------+
@@ -81,33 +81,36 @@
 +-----------+     +----------------+
 | Redis     |     | PostgreSQL HA  |
 +-----------+     +----------------+
-
+```
 </div>
+
 <br/>
+
 <!-- ===================== PROJECTS ===================== -->
-🚀 Featured Projects
+## 🚀 Featured Projects
 <div style=" background: rgba(255,255,255,0.05); border-radius: 16px; padding: 16px; border: 1px solid rgba(255,255,255,0.1); ">
-🔹 DevOps Automation Toolkit
+
+  🔹 DevOps Automation Toolkit
 Infrastructure automation scripts
 Kubernetes bootstrap modules
 Security & SSH hardening
 CI/CD pipelines templates
-🔹 GitOps Deployment System
+
+  🔹 GitOps Deployment System
 GitHub Actions based deployments
 Self-hosted runner orchestration
 Multi-environment pipelines
-🔹 Observability Stack
+
+  🔹 Observability Stack
 Prometheus + Grafana dashboards
 Centralized logging architecture
 Alerting & monitoring system
 </div> <br/> 
 
-<!-- ===================== GITHUB STATS ===================== -->
 
-📊 GitHub Analytics
-<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=Ariya99&show_icons=true&theme=tokyonight&hide_border=true" /> <img src="https://github-readme-streak-stats.herokuapp.com/?user=Ariya99&theme=tokyonight&hide_border=true" /> </p> <br/> <!-- ===================== CONNECT ===================== -->
+<!-- ===================== CONNECT ===================== -->
 
-🌐 Connect With Me
-<p align="center"> <a href="https://linkedin.com"> <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/> </a> <a href="mailto:your@email.com"> <img src="https://img.shields.io/badge/Email-111827?style=for-the-badge&logo=gmail&logoColor=white"/> </a> <a href="https://github.com/Ariya99"> <img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white"/> </a> </p> <br/> 
+## 🌐 Connect With Me
+<p align="center"> <a href="https://www.linkedin.com/in/ariya-pourmirza-06aa0916a/"> <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/> </a> <a href="mailto:ariyapourmirza@email.com"> <img src="https://img.shields.io/badge/Email-111827?style=for-the-badge&logo=gmail&logoColor=white"/> </a> <a href="https://github.com/Ariya99"> <img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white"/> </a> </p> <br/> 
 
 <!-- ===================== FOOTER ===================== --> <p align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0ea5e9,100:6366f1&height=120&section=footer"/> </p>
