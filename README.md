@@ -4,75 +4,89 @@
 
 Building scalable cloud-native platforms, automation systems, and production infrastructure.
 
-6+ years of experience designing and operating enterprise environments,
-Kubernetes platforms, CI/CD pipelines, observability stacks, and highly available systems.
+6+ years of experience designing and operating enterprise environments, Kubernetes platforms, CI/CD pipelines, observability stacks, and highly available systems.
+
+---
 
 ## 🏢 Professional Experience
 
 Working on enterprise production platforms including telecom and large-scale systems.
 
-Experience with:
+Experience in:
+
 - Kubernetes platform engineering
 - Microservices infrastructure
 - API Gateway architecture
 - CI/CD automation
+- GitOps workflows
 - Observability & reliability engineering
 - High availability systems
+- Infrastructure security
 
 Delivered infrastructure solutions for enterprise environments including:
+
 - MTN Irancell
 - MCI
 - Tejarat Bank
 - Snappfood
 
-### 🚀 What I work with
+---
 
-**Cloud & Infrastructure**
-- Linux (Ubuntu / AlmaLinux / CentOS)
-- Docker
-- Kubernetes
-- Rancher
-- High Availability Architecture
+## 🛠️ Tech Stack
 
-**DevOps & Automation**
-- GitHub Actions
-- GitOps workflows
-- CI/CD pipelines
-- Infrastructure automation with Bash
+### ☁️ Platform Engineering
 
-**Data & Distributed Systems**
-- PostgreSQL HA / Replication
-- Elasticsearch
-- Kafka
-- RabbitMQ
-- Redis
+Kubernetes • Rancher • Docker • Ingress • Microservices • Platform Architecture
 
-**Networking & Platform**
-- Nginx
-- HAProxy
-- Apache APISIX
-- Load Balancing
-- Security Hardening
+### ⚙️ CI/CD & Automation
 
+GitHub Actions • GitLab CI • Jenkins • Bamboo • Ansible • Bash Automation
 
-## Featured Projects
+### 📊 Observability
 
-🔹 Kubernetes Production Lab  
-🔹 GitOps Deployment Platform  
-🔹 DevOps Automation Toolkit  
-🔹 Secure Infrastructure Installers  
+Prometheus • Grafana • ELK Stack • Zabbix • Uptime Kuma
 
+### 🖥️ Infrastructure
 
-## Current Focus
+Linux • Ubuntu • RHEL • AlmaLinux • Rocky Linux  
+Networking • Security Hardening • Load Balancing
+
+### 🗄️ Data & Distributed Systems
+
+PostgreSQL • MySQL • Cassandra • Redis • Elasticsearch • Kafka • RabbitMQ
+
+### 🤖 AI Infrastructure
+
+LLM Integration • RAG Applications • AI Agents  
+Vector Search • MLOps Fundamentals
+
+---
+
+## 🚀 Engineering Focus
 
 Building production-grade platforms with:
+
 - Automation
-- Observability
 - Reliability
+- Scalability
 - Security
+- Observability
 
+---
 
-## Contact
+## 📌 Featured Areas
 
-LinkedIn: [Linkedin](https://www.linkedin.com/in/ariya-pourmirza-06aa0916a/)
+🔹 Kubernetes Platform Engineering  
+🔹 GitOps & CI/CD Automation  
+🔹 Infrastructure as Code  
+🔹 High Availability Systems  
+🔹 Cloud Native Architecture  
+🔹 AI Infrastructure & Automation
+
+---
+
+## 📫 Contact
+
+LinkedIn: https://www.linkedin.com/in/ariya-pourmirza-06aa0916a/
+
 Email: ariyapourmirza@gmail.com
