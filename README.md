@@ -7,6 +7,24 @@ Building scalable cloud-native platforms, automation systems, and production inf
 6+ years of experience designing and operating enterprise environments,
 Kubernetes platforms, CI/CD pipelines, observability stacks, and highly available systems.
 
+## 🏢 Professional Experience
+
+Working on enterprise production platforms including telecom and large-scale systems.
+
+Experience with:
+- Kubernetes platform engineering
+- Microservices infrastructure
+- API Gateway architecture
+- CI/CD automation
+- Observability & reliability engineering
+- High availability systems
+
+Delivered infrastructure solutions for enterprise environments including:
+- MTN Irancell
+- MCI
+- Tejarat Bank
+- Snappfood
+
 ### 🚀 What I work with
 
 **Cloud & Infrastructure**
