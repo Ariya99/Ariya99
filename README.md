@@ -53,5 +53,5 @@ Building production-grade platforms with:
 
 ## Contact
 
-LinkedIn: [YOUR_LINK](https://www.linkedin.com/in/ariya-pourmirza-06aa0916a/)
+LinkedIn: [Linkedin](https://www.linkedin.com/in/ariya-pourmirza-06aa0916a/)
 Email: ariyapourmirza@gmail.com
