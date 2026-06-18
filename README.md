@@ -1,92 +1,113 @@
-# Hi, I'm Ariya 👋
+<!-- ===================== HERO SECTION ===================== -->
 
-## DevOps Engineer | Platform Engineer | Solution Architect
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Inter&size=30&duration=2500&pause=800&center=true&vCenter=true&width=700&lines=Platform+Engineer+%7C+DevOps+Architect;Kubernetes+%7C+Cloud+%7C+Automation;Building+Scalable+Systems+%26+Infra+at+Scale" />
+</p>
 
-Building scalable cloud-native platforms, automation systems, and production infrastructure.
+<p align="center">
+  <img src="https://img.shields.io/badge/DevOps-Engineer-0ea5e9?style=for-the-badge&logo=linux&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Cloud-Native-6366f1?style=for-the-badge&logo=kubernetes&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Platform-Architecture-10b981?style=for-the-badge"/>
+</p>
 
-6+ years of experience designing and operating enterprise environments, Kubernetes platforms, CI/CD pipelines, observability stacks, and highly available systems.
+<br/>
 
----
+<!-- ===================== ABOUT GLASS CARD ===================== -->
 
-## 🏢 Professional Experience
+<div align="center">
 
-Working on enterprise production platforms including telecom and large-scale systems.
+### ✨ About Me
 
-Experience in:
+<div style="
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 20px;
+  padding: 20px;
+  width: 80%;
+  backdrop-filter: blur(12px);
+">
 
-- Kubernetes platform engineering
-- Microservices infrastructure
-- API Gateway architecture
-- CI/CD automation
-- GitOps workflows
-- Observability & reliability engineering
-- High availability systems
-- Infrastructure security
+🚀 I design and build **high-scale distributed systems**  
+⚙️ Specializing in **Kubernetes, DevOps automation, CI/CD, and cloud infrastructure**  
+☁️ Passionate about **platform engineering & system reliability**  
+🧠 Focused on **clean architecture, automation-first thinking**
 
-Delivered infrastructure solutions for enterprise environments including:
+</div>
 
-- MTN Irancell
-- MCI
-- Tejarat Bank
-- Snappfood
+</div>
 
----
+<br/>
 
-## 🛠️ Tech Stack
+<!-- ===================== TECH STACK ===================== -->
 
-### ☁️ Platform Engineering
+## ⚙️ Tech Stack
 
-Kubernetes • Rancher • Docker • Ingress • Microservices • Platform Architecture
+<p align="center">
 
-### ⚙️ CI/CD & Automation
+<img src="https://skillicons.dev/icons?i=linux,docker,kubernetes,aws,gcp,terraform,ansible,git,github,jenkins,prometheus,grafana,python,bash,go" />
 
-GitHub Actions • GitLab CI • Jenkins • Bamboo • Ansible • Bash Automation
+</p>
 
-### 📊 Observability
+<br/>
 
-Prometheus • Grafana • ELK Stack • Zabbix • Uptime Kuma
+<!-- ===================== ARCHITECTURE ===================== -->
 
-### 🖥️ Infrastructure
+## 🧠 System Design Mindset
 
-Linux • Ubuntu • RHEL • AlmaLinux • Rocky Linux  
-Networking • Security Hardening • Load Balancing
+<div align="center">
 
-### 🗄️ Data & Distributed Systems
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Ariya99&theme=react-dark&hide_border=true" />
 
-PostgreSQL • MySQL • Cassandra • Redis • Elasticsearch • Kafka • RabbitMQ
+</div>
 
-### 🤖 AI Infrastructure
+<br/>
 
-LLM Integration • RAG Applications • AI Agents  
-Vector Search • MLOps Fundamentals
+<div align="center">
 
----
+``text
+      +--------------------+
+      |   CI/CD Pipeline   |
+      +---------+----------+
+                |
+                v
+   +------------------------+
+   | Kubernetes Cluster     |
+   | (Microservices Layer)  |
+   +-----------+------------+
+               |
+     +---------+----------+
+     |                    |
+     v                    v
++-----------+     +----------------+
+| Redis     |     | PostgreSQL HA  |
++-----------+     +----------------+
 
-## 🚀 Engineering Focus
+</div>
+<br/>
+<!-- ===================== PROJECTS ===================== -->
+🚀 Featured Projects
+<div style=" background: rgba(255,255,255,0.05); border-radius: 16px; padding: 16px; border: 1px solid rgba(255,255,255,0.1); ">
+🔹 DevOps Automation Toolkit
+Infrastructure automation scripts
+Kubernetes bootstrap modules
+Security & SSH hardening
+CI/CD pipelines templates
+🔹 GitOps Deployment System
+GitHub Actions based deployments
+Self-hosted runner orchestration
+Multi-environment pipelines
+🔹 Observability Stack
+Prometheus + Grafana dashboards
+Centralized logging architecture
+Alerting & monitoring system
+</div> <br/> 
 
-Building production-grade platforms with:
+<!-- ===================== GITHUB STATS ===================== -->
 
-- Automation
-- Reliability
-- Scalability
-- Security
-- Observability
+📊 GitHub Analytics
+<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=Ariya99&show_icons=true&theme=tokyonight&hide_border=true" /> <img src="https://github-readme-streak-stats.herokuapp.com/?user=Ariya99&theme=tokyonight&hide_border=true" /> </p> <br/> <!-- ===================== CONNECT ===================== -->
 
----
+🌐 Connect With Me
+<p align="center"> <a href="https://linkedin.com"> <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/> </a> <a href="mailto:your@email.com"> <img src="https://img.shields.io/badge/Email-111827?style=for-the-badge&logo=gmail&logoColor=white"/> </a> <a href="https://github.com/Ariya99"> <img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white"/> </a> </p> <br/> 
 
-## 📌 Featured Areas
-
-🔹 Kubernetes Platform Engineering  
-🔹 GitOps & CI/CD Automation  
-🔹 Infrastructure as Code  
-🔹 High Availability Systems  
-🔹 Cloud Native Architecture  
-🔹 AI Infrastructure & Automation
-
----
-
-## 📫 Contact
-
-LinkedIn: https://www.linkedin.com/in/ariya-pourmirza-06aa0916a/
-
-Email: ariyapourmirza@gmail.com
+<!-- ===================== FOOTER ===================== --> <p align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0ea5e9,100:6366f1&height=120&section=footer"/> </p>
