@@ -1,8 +1,11 @@
 # Hi, I'm Ariya 👋
 
-## DevOps Engineer | Cloud Infrastructure | Automation
+## DevOps Engineer | Platform Engineer | Solution Architect
 
-I design and build reliable infrastructure, automation pipelines, and scalable production systems.
+Building scalable cloud-native platforms, automation systems, and production infrastructure.
+
+6+ years of experience designing and operating enterprise environments,
+Kubernetes platforms, CI/CD pipelines, observability stacks, and highly available systems.
 
 ### 🚀 What I work with
 
