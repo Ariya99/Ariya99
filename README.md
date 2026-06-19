@@ -110,6 +110,10 @@ Built and managed:
 ### 🗄️ Database Reliability
 Experience with:
 - PostgreSQL high availability
+- Streaming replication
+- Primary / standby architecture
+- Backup automation
+- Failover concepts
 - Replication & backup strategies
 - Database operations
 - Data integrity
@@ -129,7 +133,7 @@ Implemented:
 
 ### Infrastructure & DevOps
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=linux,docker,kubernetes,terraform,ansible,bash,python,go"/>
+  <img src="https://skillicons.dev/icons?i=linux,docker,kubernetes,terraform,ansible,bash,python,rancher,helm,colico,gitops"/>
 </p>
 
 ### Cloud & Tools
@@ -139,7 +143,7 @@ Implemented:
 
 ### Observability
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=prometheus,grafana"/>
+  <img src="https://skillicons.dev/icons?i=prometheus,grafana,uptime-kuma"/>
 </p>
 
 ### Data Platforms
@@ -148,6 +152,7 @@ Implemented:
 - Kafka
 - Elasticsearch
 - MySQL
+- cockroachDB
 
 <br/>
 
