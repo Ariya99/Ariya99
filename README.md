@@ -1,195 +1,99 @@
-<!-- ===================== HERO SECTION ===================== -->
-
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Inter&size=30&duration=2500&pause=800&center=true&vCenter=true&width=800&lines=Platform+Engineer+%7C+DevOps+Architect;Kubernetes+%7C+Cloud+%7C+Infrastructure;Building+Reliable+Production+Systems" />
-</p>
-
-<p align="center">
-<img src="https://img.shields.io/badge/Platform-Engineer-0ea5e9?style=for-the-badge&logo=kubernetes&logoColor=white"/>
-<img src="https://img.shields.io/badge/DevOps-Automation-6366f1?style=for-the-badge&logo=linux&logoColor=white"/>
-<img src="https://img.shields.io/badge/Cloud-Native-10b981?style=for-the-badge"/>
-</p>
-
-
-<br/>
-
-
-<!-- ===================== ABOUT ===================== -->
-
-
-## 👨‍💻 About Me
-
-
+<!-- ===================== HERO SECTION ===================== --> 
+<p align="center"> <img src="https://readme-typing-svg.herokuapp.com?font=Inter&size=30&duration=2500&pause=800&center=true&vCenter=true&width=800&lines=Platform+Engineer+%7C+DevOps+Architect;Kubernetes+%7C+Cloud+%7C+Automation;Building+Reliable+Production+Systems"/> </p> <p align="center"> <img src="https://img.shields.io/badge/Platform-Engineer-0ea5e9?style=for-the-badge&logo=kubernetes&logoColor=white"/> <img src="https://img.shields.io/badge/DevOps-Automation-6366f1?style=for-the-badge&logo=linux&logoColor=white"/> <img src="https://img.shields.io/badge/Cloud-Native-10b981?style=for-the-badge"/> </p> <br/>
+👨‍💻 About Me
 <div align="center">
 
-
-I design and engineer **production-grade infrastructure platforms**.
-
-My focus is building:
-
-🚀 Highly available distributed systems  
-☸️ Kubernetes-based platforms  
-⚙️ Infrastructure automation  
-🔐 Secure cloud-native environments  
-📦 CI/CD and GitOps workflows  
-
-
-</div>
-
+I design and build production-grade infrastructure platforms.
 
 <br/>
 
+🚀 Distributed systems & cloud-native infrastructure
+☸️ Kubernetes platform engineering
+⚙️ DevOps automation & GitOps workflows
+🔐 Secure, scalable and reliable environments
 
-<!-- ===================== ENGINEERING EXPERIENCE ===================== -->
-
-
-## 🏗️ Engineering Experience
-
-
-```yaml
-Role:
-  - Platform Engineer
-  - DevOps Engineer
-  - Infrastructure Automation
-
-Focus:
-  - Kubernetes Architecture
-  - Cloud Native Systems
-  - Reliability Engineering
-  - Automation First Infrastructure
-
-Experience:
-  - Production Linux environments
-  - Container orchestration
-  - Distributed databases
-  - CI/CD platforms
-<br/> 
-```
-<!-- ===================== ARCHITECTURE ===================== -->
-🧠 Platform Architecture
-
-                 Developers
-                      |
-                      v
-
-              Git Repository
-                      |
-                      v
-
-              CI/CD Pipeline
-          (GitHub Actions / GitOps)
-                      |
-                      v
-
-        +---------------------------+
-        |     Kubernetes Platform   |
-        |                           |
-        |  Microservices            |
-        |  Ingress                  |
-        |  Service Mesh             |
-        +-------------+-------------+
-
-                      |
-        +-------------+-------------+
-        |                           |
-        v                           v
-
-   PostgreSQL HA              Redis Cluster
-
-        |
-        v
-
-   Elasticsearch + Kafka
-
-        |
-        v
-
- Monitoring & Observability
- Prometheus / Grafana / Logs
-
-
-<br/>
-
-<!-- ===================== PROJECTS ===================== -->
-
-🚀 Featured Infrastructure Projects
+</div> <br/>
+🏗️ Engineering Focus
+<div align="center"> <table> <tr> <td align="center">☸️ Kubernetes</td> <td align="center">⚙️ Automation</td> <td align="center">🔐 Security</td> </tr> <tr> <td align="center">Cloud Native</td> <td align="center">Infrastructure as Code</td> <td align="center">Reliability Engineering</td> </tr> </table> </div> <br/>
+🧠 System Architecture
+<div align="center"> <pre> Developers | v Git Repository | v CI/CD Pipeline GitHub Actions / GitOps | v +--------------------------+ | Kubernetes Platform | | | | Microservices | | Ingress | | Service Discovery | +------------+-------------+ | +------------+-------------+ | | v v PostgreSQL HA Redis | v Kafka + Elasticsearch | v Prometheus + Grafana </pre> </div> <br/>
+🚀 Featured Projects
 ⭐ DevOps Automation Toolkit
 
-Infrastructure automation platform containing:
+Infrastructure automation collection:
 
 Linux server bootstrap
 SSH hardening
 Security automation
-Kubernetes helpers
-Database automation
+Kubernetes utilities
 Operational scripts
-⭐ Kubernetes Platform Engineering
+Deployment helpers
+☸️ Kubernetes Platform Engineering
 
-Production Kubernetes environments:
+Hands-on infrastructure:
 
-Cluster bootstrap automation
+Kubernetes cluster deployment
 Ingress architecture
 Monitoring stack
-Deployment workflows
 Container lifecycle management
-⭐ API Gateway & Distributed Systems
+Production operations
+🌐 API Gateway & Cloud Networking
 
 Built and managed:
 
-API Gateway architecture
-Traffic routing
-Service exposure
-High availability patterns
-⭐ Database Reliability Engineering
+API gateway architecture
+Service routing
+Traffic management
+Secure exposure patterns
+🗄️ Database Reliability
 
 Experience with:
 
-PostgreSQL replication
-High availability databases
+PostgreSQL high availability
+Replication
 Backup strategies
-Data reliability
-⭐ Messaging & Search Infrastructure
+Database operations
+📡 Distributed Infrastructure
 
 Implemented:
 
-Kafka distributed messaging
+Kafka messaging platforms
 Elasticsearch clusters
-Secure configurations
 Observability pipelines
-<br/> 
-
-<!-- ===================== TECH STACK ===================== -->
+Scalable backend services
+<br/>
 ⚙️ Technology Stack
-Infrastructure
-<p align="center"> <img src="https://skillicons.dev/icons?i=linux,docker,kubernetes,terraform,ansible,bash,python"/> </p>
-Cloud & DevOps
-<p align="center"> <img src="https://skillicons.dev/icons?i=aws,gcp,github,git,jenkins"/> </p>
-Observability
-<p align="center"> <img src="https://skillicons.dev/icons?i=prometheus,grafana"/> </p>
+<p align="center"> <img src="https://skillicons.dev/icons?i=linux,docker,kubernetes,terraform,ansible,bash,python,go,aws,gcp,git,github,jenkins,prometheus,grafana"/> </p> <br/>
 Data Platforms
-PostgreSQL
-Redis
-Kafka
-Elasticsearch
-MySQL
-<br/> 
-
-<!-- ===================== MINDSET ===================== -->
+<p align="center"> <img src="https://skillicons.dev/icons?i=postgres,redis,mysql"/> </p> <br/>
 🔥 Engineering Principles
+<div align="center">
+
 Automation over repetition
+
+<br/>
 
 Infrastructure as Code
 
+<br/>
+
 Security by default
+
+<br/>
 
 Observability everywhere
 
+<br/>
+
 Design for failure
 
+<br/>
+
 Reliable systems at scale
-<br/> 
-<!-- ===================== GITHUB ===================== -->
+
+</div> <br/>
 📊 GitHub Activity
-<p align="center"> <img src="https://github-readme-activity-graph.vercel.app/graph?username=Ariya99&theme=react-dark&hide_border=true"/> </p> <br/> <!-- ===================== CONNECT ===================== -->
-🌐 Connect
-<p align="center"> <a href="https://www.linkedin.com/in/ariya-pourmirza-06aa0916a/"> <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin"/> </a> <a href="mailto:ariyapourmirza@email.com"> <img src="https://img.shields.io/badge/Email-red?style=for-the-badge&logo=gmail"/> </a> <a href="https://github.com/Ariya99"> <img src="https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github"/> </a> </p> <br/> <!-- ===================== FOOTER ===================== --> <p align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0ea5e9,100:6366f1&height=120&section=footer"/> </p>
+<p align="center"> <img src="https://github-readme-activity-graph.vercel.app/graph?username=Ariya99&theme=react-dark&hide_border=true"/> </p> <br/>
+🌐 Connect With Me
+<p align="center"> <a href="https://www.linkedin.com/in/ariya-pourmirza-06aa0916a/"> <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin"/> </a> <a href="mailto:ariyapourmirza@email.com"> <img src="https://img.shields.io/badge/Email-red?style=for-the-badge&logo=gmail"/> </a> <a href="https://github.com/Ariya99"> <img src="https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github"/> </a> </p> <br/>
+<p align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0ea5e9,100:6366f1&height=120&section=footer"/> </p>
