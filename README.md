@@ -1,99 +1,198 @@
-<!-- ===================== HERO SECTION ===================== --> 
-<p align="center"> <img src="https://readme-typing-svg.herokuapp.com?font=Inter&size=30&duration=2500&pause=800&center=true&vCenter=true&width=800&lines=Platform+Engineer+%7C+DevOps+Architect;Kubernetes+%7C+Cloud+%7C+Automation;Building+Reliable+Production+Systems"/> </p> <p align="center"> <img src="https://img.shields.io/badge/Platform-Engineer-0ea5e9?style=for-the-badge&logo=kubernetes&logoColor=white"/> <img src="https://img.shields.io/badge/DevOps-Automation-6366f1?style=for-the-badge&logo=linux&logoColor=white"/> <img src="https://img.shields.io/badge/Cloud-Native-10b981?style=for-the-badge"/> </p> <br/>
-👨‍💻 About Me
-<div align="center">
+<!-- ===================== HERO SECTION ===================== -->
 
-I design and build production-grade infrastructure platforms.
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Inter&size=30&duration=2500&pause=800&center=true&vCenter=true&width=800&lines=Platform+Engineer+%7C+DevOps+Architect;Kubernetes+%7C+Cloud+%7C+Infrastructure"/>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Platform-Engineer-0ea5e9?style=for-the-badge&logo=kubernetes&logoColor=white"/>
+  <img src="https://img.shields.io/badge/DevOps-Automation-6366f1?style=for-the-badge&logo=linux&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Cloud-Native-10b981?style=for-the-badge"/>
+</p>
 
 <br/>
 
-🚀 Distributed systems & cloud-native infrastructure
-☸️ Kubernetes platform engineering
-⚙️ DevOps automation & GitOps workflows
-🔐 Secure, scalable and reliable environments
+<!-- ===================== ABOUT ===================== -->
 
-</div> <br/>
-🏗️ Engineering Focus
-<div align="center"> <table> <tr> <td align="center">☸️ Kubernetes</td> <td align="center">⚙️ Automation</td> <td align="center">🔐 Security</td> </tr> <tr> <td align="center">Cloud Native</td> <td align="center">Infrastructure as Code</td> <td align="center">Reliability Engineering</td> </tr> </table> </div> <br/>
-🧠 System Architecture
-<div align="center"> <pre> Developers | v Git Repository | v CI/CD Pipeline GitHub Actions / GitOps | v +--------------------------+ | Kubernetes Platform | | | | Microservices | | Ingress | | Service Discovery | +------------+-------------+ | +------------+-------------+ | | v v PostgreSQL HA Redis | v Kafka + Elasticsearch | v Prometheus + Grafana </pre> </div> <br/>
-🚀 Featured Projects
-⭐ DevOps Automation Toolkit
+## 👨‍💻 About Me
 
+<div align="center">
+
+I design and engineer **production-grade infrastructure platforms**.
+
+My focus is building:
+
+🚀 Distributed systems & cloud-native infrastructure  
+☸️ Kubernetes platform engineering  
+⚙️ DevOps automation & GitOps workflows  
+🔐 Secure, scalable and reliable environments  
+
+</div>
+
+<br/>
+
+<!-- ===================== ENGINEERING FOCUS ===================== -->
+
+## 🏗️ Engineering Focus
+
+<div align="center">
+
+| ☸️ Kubernetes | ⚙️ Automation | 🔐 Security |
+|---|---|---|
+| Cluster architecture | Infrastructure as Code | Security hardening |
+| Container orchestration | CI/CD pipelines | Access control |
+| Service mesh | GitOps workflows | Compliance |
+
+</div>
+
+<br/>
+
+<!-- ===================== SYSTEM ARCHITECTURE ===================== -->
+
+## 🧠 System Architecture
+
+```
+                    Developers
+                         |
+                         v
+                 Git Repository
+                         |
+                         v
+           CI/CD Pipeline (GitHub Actions/GitOps)
+                         |
+                         v
+        +----------------------------------------+
+        |       Kubernetes Platform              |
+        |  Microservices | Ingress | Service Mesh|
+        +----------------------------------------+
+                    |           |
+         +----------+           +----------+
+         v                                  v
+    PostgreSQL HA                    Redis Cluster
+         |
+         v
+   Elasticsearch + Kafka
+         |
+         v
+  Monitoring & Observability
+  (Prometheus/Grafana/Logs)
+```
+
+<br/>
+
+<!-- ===================== FEATURED PROJECTS ===================== -->
+
+## 🚀 Featured Projects
+
+### ⭐ DevOps Automation Toolkit
 Infrastructure automation collection:
+- Linux server bootstrap
+- SSH hardening & security automation
+- Kubernetes utilities
+- Operational scripts
+- Deployment helpers
 
-Linux server bootstrap
-SSH hardening
-Security automation
-Kubernetes utilities
-Operational scripts
-Deployment helpers
-☸️ Kubernetes Platform Engineering
-
+### ☸️ Kubernetes Platform Engineering
 Hands-on infrastructure:
+- Kubernetes cluster deployment
+- Ingress architecture
+- Monitoring stack
+- Container lifecycle management
+- Production operations
 
-Kubernetes cluster deployment
-Ingress architecture
-Monitoring stack
-Container lifecycle management
-Production operations
-🌐 API Gateway & Cloud Networking
-
+### 🌐 API Gateway & Cloud Networking
 Built and managed:
+- API gateway architecture
+- Service routing & traffic management
+- Secure exposure patterns
+- High availability design
 
-API gateway architecture
-Service routing
-Traffic management
-Secure exposure patterns
-🗄️ Database Reliability
-
+### 🗄️ Database Reliability
 Experience with:
+- PostgreSQL high availability
+- Replication & backup strategies
+- Database operations
+- Data integrity
 
-PostgreSQL high availability
-Replication
-Backup strategies
-Database operations
-📡 Distributed Infrastructure
-
+### 📡 Distributed Infrastructure
 Implemented:
+- Kafka messaging platforms
+- Elasticsearch clusters
+- Observability pipelines
+- Scalable backend services
 
-Kafka messaging platforms
-Elasticsearch clusters
-Observability pipelines
-Scalable backend services
 <br/>
-⚙️ Technology Stack
-<p align="center"> <img src="https://skillicons.dev/icons?i=linux,docker,kubernetes,terraform,ansible,bash,python,go,aws,gcp,git,github,jenkins,prometheus,grafana"/> </p> <br/>
-Data Platforms
-<p align="center"> <img src="https://skillicons.dev/icons?i=postgres,redis,mysql"/> </p> <br/>
-🔥 Engineering Principles
+
+<!-- ===================== TECH STACK ===================== -->
+
+## ⚙️ Technology Stack
+
+### Infrastructure & DevOps
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=linux,docker,kubernetes,terraform,ansible,bash,python,go"/>
+</p>
+
+### Cloud & Tools
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=aws,gcp,git,github,jenkins"/>
+</p>
+
+### Observability
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=prometheus,grafana"/>
+</p>
+
+### Data Platforms
+- PostgreSQL
+- Redis
+- Kafka
+- Elasticsearch
+- MySQL
+
+<br/>
+
+<!-- ===================== ENGINEERING PRINCIPLES ===================== -->
+
+## 🔥 Engineering Principles
+
 <div align="center">
 
-Automation over repetition
+| Principle | Focus |
+|-----------|-------|
+| ⚡ Automation over repetition | Reduce manual work |
+| 📋 Infrastructure as Code | Version control everything |
+| 🔐 Security by default | Security from day one |
+| 📊 Observability everywhere | Visibility and monitoring |
+| 💪 Design for failure | Resilience first |
+| 📈 Reliable systems at scale | Production ready |
+
+</div>
 
 <br/>
 
-Infrastructure as Code
+<!-- ===================== GITHUB ACTIVITY ===================== -->
+
+## 📊 GitHub Activity
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Ariya99&theme=react-dark&hide_border=true"/>
+</p>
 
 <br/>
 
-Security by default
+<!-- ===================== CONNECT ===================== -->
 
-<br/>
+## 🌐 Connect With Me
 
-Observability everywhere
+<p align="center">
+  <a href="https://www.linkedin.com/in/ariya-pourmirza-06aa0916a/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin"/>
+  </a>
+  <a href="mailto:ariya.pourmirza@example.com">
+    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
+</p>
 
-<br/>
-
-Design for failure
-
-<br/>
-
-Reliable systems at scale
-
-</div> <br/>
-📊 GitHub Activity
-<p align="center"> <img src="https://github-readme-activity-graph.vercel.app/graph?username=Ariya99&theme=react-dark&hide_border=true"/> </p> <br/>
-🌐 Connect With Me
-<p align="center"> <a href="https://www.linkedin.com/in/ariya-pourmirza-06aa0916a/"> <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin"/> </a> <a href="mailto:ariyapourmirza@email.com"> <img src="https://img.shields.io/badge/Email-red?style=for-the-badge&logo=gmail"/> </a> <a href="https://github.com/Ariya99"> <img src="https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github"/> </a> </p> <br/>
-<p align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0ea5e9,100:6366f1&height=120&section=footer"/> </p>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0ea5e9,100:6366f1&height=120&section=footer"/>
+</p>
