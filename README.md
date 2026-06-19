@@ -197,7 +197,7 @@ nahalgsht.com | visaland.org | panafor.com | aia.tools
 
 ### Platform Engineering & DevOps
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=linux,docker,kubernetes,terraform,ansible,bash,python,go"/>
+  <img src="https://skillicons.dev/icons?i=kubernetes,docker,linux,terraform,ansible,python,go,bash,postgres,redis,kafka,nextjs,typescript,html,css,tailwind"/>
 </p>
 
 Kubernetes • Rancher • Docker • Terraform • Ansible • GitHub Actions • GitLab CI • Bamboo • Bitbucket • Jenkins • JFrog Artifactory
