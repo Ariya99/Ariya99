@@ -61,32 +61,39 @@ DevOps Engineer and Solution Architect with **6+ years of experience** designing
 
 ## 🧠 System Architecture
 
+```mermaid
+flowchart LR
+  Dev[Developers] --> Repo[Git Repository]
+  Repo --> CI[CI/CD Pipeline\n(GitHub Actions / GitOps)]
+  CI --> GitOps[GitOps Operator]
+  CI --> Registry[Image Registry\n(JFrog / Docker Hub)]
+  Registry --> K8s[Kubernetes Platform]
+  GitOps --> K8s
+
+  subgraph K8sBox[Kubernetes Platform]
+    direction TB
+    API[API Gateway / Ingress]
+    Mesh[Service Mesh]
+    Apps[Microservices / Pods]
+    Storage[Persistent / PVs]
+  end
+
+  K8s --> DB[PostgreSQL HA]
+  K8s --> Cache[Redis Cluster]
+  K8s --> MQ[Kafka Cluster]
+  K8s --> ES[Elasticsearch]
+  K8s --> Observ[Observability\n(Prometheus / Grafana / ELK)]
+  Observ --> Alert[Alerting / Incident Mgmt]
+
+  External[Load Balancer / CDN / 3rd-party APIs] --> K8s
+  Dev --> Repo
+
+  style K8sBox fill:#eef2ff,stroke:#6366f1,stroke-width:2px
+  style CI fill:#eef6ff,stroke:#0ea5e9,stroke-width:1px
+  style Observ fill:#fff7ed,stroke:#f59e0b,stroke-width:1px
 ```
-                    Developers
-                         |
-                         v
-                 Git Repository
-                         |
-                         v
-           CI/CD Pipeline (GitHub Actions/GitOps)
-                         |
-                         v
-        +----------------------------------------+
-        |       Kubernetes Platform              |
-        |  Microservices | Ingress | Service Mesh|
-        +----------------------------------------+
-                    |           |
-         +----------+           +----------+
-         v                                  v
-    PostgreSQL HA                    Redis Cluster
-         |
-         v
-   Elasticsearch + Kafka
-         |
-         v
-  Monitoring & Observability
-  (Prometheus/Grafana/Logs)
-```
+
+A simplified, modern architecture view: developers push changes to Git, CI builds and pushes images to a registry, GitOps reconciles the desired state into the Kubernetes platform which houses API gateway/ingress, service mesh, and microservices. Stateful systems (Postgres HA, Redis, Kafka, Elasticsearch) are attached as well as a centralized observability stack that feeds alerting and incident management.
 
 <br/>
 
