@@ -63,34 +63,47 @@ DevOps Engineer and Solution Architect with **6+ years of experience** designing
 
 ```mermaid
 flowchart LR
-  Dev[Developers] --> Repo[Git Repository]
-  Repo --> CI[CI/CD Pipeline\n(GitHub Actions / GitOps)]
-  CI --> GitOps[GitOps Operator]
-  CI --> Registry[Image Registry\n(JFrog / Docker Hub)]
-  Registry --> K8s[Kubernetes Platform]
-  GitOps --> K8s
+  Dev["Developers<br/>(git push, PRs)"] --> Repo["Git Repository"]
+  Repo --> CI["CI/CD Pipeline<br/>(GitHub Actions / Bamboo)"]
+  CI --> Registry["Image Registry<br/>(JFrog / Docker Hub)"]
+  CI --> Tests["Automated Tests<br/>(Security / E2E)"]
+  Tests --> Registry
+  CI --> Notify["CI -> Slack / Ticketing"]
 
-  subgraph K8sBox[Kubernetes Platform]
-    direction TB
-    API[API Gateway / Ingress]
-    Mesh[Service Mesh]
-    Apps[Microservices / Pods]
-    Storage[Persistent / PVs]
-  end
+  Repo --> GitOps["GitOps Operator<br/>(ArgoCD / Flux)"]
+  Registry --> GitOps
+  GitOps --> K8sProd["K8s Cluster — Prod"]
+  GitOps --> K8sStg["K8s Cluster — Staging"]
 
-  K8s --> DB[PostgreSQL HA]
-  K8s --> Cache[Redis Cluster]
-  K8s --> MQ[Kafka Cluster]
-  K8s --> ES[Elasticsearch]
-  K8s --> Observ[Observability\n(Prometheus / Grafana / ELK)]
-  Observ --> Alert[Alerting / Incident Mgmt]
+  LB["Global LB / CDN"] --> WAF["WAF / API Gateway"]
+  WAF --> Ingress["Ingress Controller / External LB"]
+  Ingress --> Mesh["Service Mesh<br/>(Istio / Linkerd)"]
+  Mesh --> Apps["Microservices / Pods"]
 
-  External[Load Balancer / CDN / 3rd-party APIs] --> K8s
-  Dev --> Repo
+  Apps --> Postgres["PostgreSQL HA"]
+  Apps --> Redis["Redis Cluster"]
+  Apps --> Kafka["Kafka Cluster"]
+  Apps --> ES["Elasticsearch"]
+  Storage["PV / CSI / Object Storage"] -.-> Postgres
+  Storage -.-> ES
 
-  style K8sBox fill:#eef2ff,stroke:#6366f1,stroke-width:2px
-  style CI fill:#eef6ff,stroke:#0ea5e9,stroke-width:1px
-  style Observ fill:#fff7ed,stroke:#f59e0b,stroke-width:1px
+  Apps --> Metrics["Prometheus / Metrics"]
+  Apps --> Traces["Jaeger / OpenTelemetry"]
+  Apps --> Logs["Fluentd → ELK"]
+  Metrics --> Grafana["Grafana Dashboards"]
+  Logs --> Kibana["Kibana"]
+  Grafana --> Alert["Alerting / PagerDuty"]
+  Alert --> Oncall["Incident Mgmt"]
+
+  IAM["Identity & Access<br/>(OIDC, RBAC)"] -.-> K8sProd
+  Secrets["Vault / External KMS"] -.-> Apps
+  Policy["Policy Engine<br/>(OPA / Gatekeeper)"] -.-> GitOps
+  Backup["Backup & DR Services"] -.-> Storage
+
+  style GitOps fill:#eef6ff,stroke:#0ea5e9,stroke-width:1px
+  style LB fill:#f0f9ff,stroke:#2563eb,stroke-width:1px
+  style Metrics fill:#fff7ed,stroke:#f59e0b,stroke-width:1px
+  style IAM fill:#f8fafc,stroke:#ef4444,stroke-width:1px
 ```
 
 A simplified, modern architecture view: developers push changes to Git, CI builds and pushes images to a registry, GitOps reconciles the desired state into the Kubernetes platform which houses API gateway/ingress, service mesh, and microservices. Stateful systems (Postgres HA, Redis, Kafka, Elasticsearch) are attached as well as a centralized observability stack that feeds alerting and incident management.
