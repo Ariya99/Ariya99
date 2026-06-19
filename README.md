@@ -20,8 +20,6 @@
 
 I design and engineer **production-grade infrastructure platforms**.
 
-My focus is building:
-
 🚀 Distributed systems & cloud-native infrastructure  
 ☸️ Kubernetes platform engineering  
 ⚙️ DevOps automation & GitOps workflows  
@@ -197,7 +195,7 @@ nahalgsht.com | visaland.org | panafor.com | aia.tools
 
 ### Platform Engineering & DevOps
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=kubernetes,docker,linux,terraform,ansible,python,go,bash,postgres,redis,kafka,nextjs,typescript,html,css,tailwind"/>
+  <img src="https://skillicons.dev/icons?i=kubernetes,docker,linux,terraform,ansible,python,bash,postgres,redis,kafka,nextjs,typescript,html,css,tailwind"/>
 </p>
 
 Kubernetes • Rancher • Docker • Terraform • Ansible • GitHub Actions • GitLab CI • Bamboo • Bitbucket • Jenkins • JFrog Artifactory
@@ -254,15 +252,6 @@ Prometheus • Grafana • ELK Stack • Zabbix • Uptime Kuma
 
 <br/>
 
-<!-- ===================== EDUCATION ===================== -->
-
-## 🎓 Education
-
-- **Master of Computer & Information Sciences** — Azad University
-- **Bachelor of Physics** — Kharazmi University
-
-<br/>
-
 <!-- ===================== CERTIFICATIONS ===================== -->
 
 ## 🏅 Certifications
@@ -273,26 +262,6 @@ Prometheus • Grafana • ELK Stack • Zabbix • Uptime Kuma
 - Grafana Application Performance Monitoring
 - CEH (Certified Ethical Hacker)
 - PWK (Penetration Testing with Kali Linux)
-
-<br/>
-
-<!-- ===================== LANGUAGES ===================== -->
-
-## 🗣️ Languages
-
-- **English** — Advanced
-- **Persian** — Native
-- **Italian** — Intermediate
-
-<br/>
-
-<!-- ===================== GITHUB ACTIVITY ===================== -->
-
-## 📊 GitHub Activity
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Ariya99&theme=react-dark&hide_border=true"/>
-</p>
 
 <br/>
 
