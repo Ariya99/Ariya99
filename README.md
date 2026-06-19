@@ -1,7 +1,7 @@
 <!-- ===================== HERO SECTION ===================== -->
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Inter&size=30&duration=2500&pause=800&center=true&vCenter=true&width=800&lines=Platform+Engineer+%7C+DevOps+Architect;Kubernetes+%7C+Cloud+%7C+Infrastructure"/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Inter&size=30&duration=2500&pause=800&center=true&vCenter=true&width=800&lines=Platform+Engineer+%7C+DevOps+Architect;Kubernetes+%7C+Cloud+%7C+Infrastructure+%26+AI"/>
 </p>
 
 <p align="center">
@@ -27,7 +27,17 @@ My focus is building:
 ⚙️ DevOps automation & GitOps workflows  
 🔐 Secure, scalable and reliable environments  
 
+**Open to relocate to EU**
+
 </div>
+
+<br/>
+
+<!-- ===================== PROFESSIONAL SUMMARY ===================== -->
+
+## 🧾 Professional Summary
+
+DevOps Engineer and Solution Architect with **6+ years of experience** designing, implementing, and operating scalable infrastructure platforms and cloud-native environments. Experienced in Kubernetes platform engineering, CI/CD automation, GitOps workflows, observability, Linux infrastructure, and enterprise production systems. Proven track record improving scalability, automation, and operational efficiency; currently expanding expertise in AI infrastructure, LLM-based systems, and AI-assisted DevOps automation.
 
 <br/>
 
@@ -39,9 +49,9 @@ My focus is building:
 
 | ☸️ Kubernetes | ⚙️ Automation | 🔐 Security |
 |---|---|---|
-| Cluster architecture | Infrastructure as Code | Security hardening |
-| Container orchestration | CI/CD pipelines | Access control |
-| Service mesh | GitOps workflows | Compliance |
+| Cluster architecture | Infrastructure as Code | CI/CD pipelines |
+| Container orchestration | GitOps workflows | Security hardening |
+| Service mesh | DevOps automation | Access control |
 
 </div>
 
@@ -110,10 +120,6 @@ Built and managed:
 ### 🗄️ Database Reliability
 Experience with:
 - PostgreSQL high availability
-- Streaming replication
-- Primary / standby architecture
-- Backup automation
-- Failover concepts
 - Replication & backup strategies
 - Database operations
 - Data integrity
@@ -125,34 +131,87 @@ Implemented:
 - Observability pipelines
 - Scalable backend services
 
+### 💼 Multi-Project Production Platform
+nahalgsht.com | visaland.org | panafor.com | aia.tools
+- Designed and implemented production infrastructure for multiple web platforms
+- Built centralized monitoring using Prometheus, Grafana, and Uptime Kuma
+- Created GitHub Actions CI/CD workflows and GitOps-based deployment processes
+- Automated deployments, monitoring, health checks, and operational workflows
+- Implemented secure VPN-over-DNS networking solution
+
+<br/>
+
+<!-- ===================== PROFESSIONAL EXPERIENCE ===================== -->
+
+## 💼 Professional Experience
+
+### DevOps Engineer — Sabaidea Corporation (May 2025 - Feb 2026)
+- Built and maintained Kubernetes-based production platforms using Kubernetes, Rancher, and Docker
+- Designed platform architecture for scalable microservices including API Gateway, ingress, networking, and service discovery
+- Implemented CI/CD automation using Bamboo, Bitbucket, and JFrog Artifactory
+- Built monitoring and observability solutions using Prometheus, Grafana, and ELK Stack
+- Integrated enterprise on-premise projects: Snappfood, Tejarat Bank, Taline, MTN Irancell, MCI
+- **Delivered infrastructure supporting millions of daily API requests**
+- **Reduced downtime by ~40% and improved incident detection time by ~60%** through monitoring and automation
+
+### Lead DevOps Engineer — Tecnotree Corporation (Sep 2023 - Apr 2025)
+- Led DevOps delivery and optimization for telecom platforms: CLM, CBS, HCBS, EIA
+- Managed delivery lifecycle for 60+ enterprise telecom projects
+- Improved deployment workflows using Kubernetes, Ansible, Git, and TeamCity
+- Collaborated with development, architecture, business, and operations teams
+- Supported go-live operations, incident response, and reliability improvements
+- Worked with PostgreSQL, MySQL, Oracle Database, and Cassandra environments
+- Mentored engineers and improved DevOps practices across teams
+
+### Linux Administrator — Tecnotree / Parspack (Nov 2021 - Aug 2023)
+- Managed Linux infrastructure: Ubuntu, RHEL, CentOS, AlmaLinux, Rocky Linux
+- Installed and maintained Nginx, Apache, MySQL, PHP, DNS, SSH, and FTP services
+- Resolved networking and infrastructure issues: DNS, DHCP, VPN, TCP/IP, SSH tunneling
+- Supported cloud hosting, CDN, and enterprise infrastructure environments
+
 <br/>
 
 <!-- ===================== TECH STACK ===================== -->
 
 ## ⚙️ Technology Stack
 
-### Infrastructure & DevOps
+### Platform Engineering & DevOps
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=linux,docker,kubernetes,terraform,ansible,bash,python,rancher,helm,colico,gitops"/>
+  <img src="https://skillicons.dev/icons?i=linux,docker,kubernetes,terraform,ansible,bash,python,go"/>
 </p>
 
-### Cloud & Tools
+Kubernetes • Rancher • Docker • Terraform • Ansible • GitHub Actions • GitLab CI • Bamboo • Bitbucket • Jenkins • JFrog Artifactory
+
+### Cloud & Infrastructure
 <p align="center">
   <img src="https://skillicons.dev/icons?i=aws,gcp,git,github,jenkins"/>
 </p>
 
-### Observability
+AWS • GCP • Git • GitHub • Networking • VPN • Security
+
+### Observability & Monitoring
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=prometheus,grafana,uptime-kuma"/>
+  <img src="https://skillicons.dev/icons?i=prometheus,grafana"/>
 </p>
 
+Prometheus • Grafana • ELK Stack • Zabbix • Uptime Kuma
+
 ### Data Platforms
-- PostgreSQL
+- PostgreSQL (HA & Replication)
+- MySQL
 - Redis
 - Kafka
 - Elasticsearch
-- MySQL
-- cockroachDB
+- Cassandra
+- CockroachDB
+- Oracle Database
+
+### AI & MLOps
+- RAG Applications
+- LLM Integration & AI Agents
+- Vector Search
+- AI-Assisted DevOps Automation
+- MLOps Fundamentals
 
 <br/>
 
@@ -175,6 +234,38 @@ Implemented:
 
 <br/>
 
+<!-- ===================== EDUCATION ===================== -->
+
+## 🎓 Education
+
+- **Master of Computer & Information Sciences** — Azad University
+- **Bachelor of Physics** — Kharazmi University
+
+<br/>
+
+<!-- ===================== CERTIFICATIONS ===================== -->
+
+## 🏅 Certifications
+
+- LPIC-1, LPIC-2
+- DevOps Foundations
+- Kubernetes Monitoring with Prometheus
+- Grafana Application Performance Monitoring
+- CEH (Certified Ethical Hacker)
+- PWK (Penetration Testing with Kali Linux)
+
+<br/>
+
+<!-- ===================== LANGUAGES ===================== -->
+
+## 🗣️ Languages
+
+- **English** — Advanced
+- **Persian** — Native
+- **Italian** — Intermediate
+
+<br/>
+
 <!-- ===================== GITHUB ACTIVITY ===================== -->
 
 ## 📊 GitHub Activity
@@ -193,7 +284,7 @@ Implemented:
   <a href="https://www.linkedin.com/in/ariya-pourmirza-06aa0916a/">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin"/>
   </a>
-  <a href="mailto:ariya.pourmirza@example.com">
+  <a href="mailto:ariyapourmirza@gmail.com">
     <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
 </p>
